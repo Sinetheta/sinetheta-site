@@ -72,7 +72,7 @@ straightforward.
 
 So how does it work?
 
-![Creating S3 bucket with IAM user]({{ "/assets/images/posts/2018-06-16-automating-aws-setup/aws-s3-script.gif" | absolute_url }})
+![Creating S3 bucket with IAM user]({{ "/assets/images/posts/2018-06-16-automating-aws-setup/aws-s3-script.gif" | relative_url }})
 
 This gives me the new user credentials, ready to configure the cli, and the url
 of a new bucket [optionally] configured as a website. This covers my common use
