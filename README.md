@@ -6,4 +6,7 @@ A personal website and blog.
 
 Install and configure the [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
 
-`aws s3 sync _site s3://sinetheta.ca`
+```sh
+bundle exec jekyll build
+./scripts/deploy.sh <aws_cli_profile> <bucket_name>
+```
